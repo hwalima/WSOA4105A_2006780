@@ -2,14 +2,25 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Painting</title>
+  <title>Painting</title>
   <link rel="stylesheet" href="./css/frontPage.css">
   <script  src="./js/frontPage.js"></script>
-  
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 <body>
+  <!--Navigation bar-->
+<div id="nav-placeholder">
+
+</div>
+
+<script>
+$(function(){
+  $("#nav-placeholder").load("menu.html");
+});
+</script>
+<!--end of Navigation bar-->
     <canvas id='canvas'></canvas>
     <span>Move the mouse to paint.<span>
 </body>
-<script  src="./js/frontPage.js"></script>
+<script  src="./js/paint.js"></script>
 </html>

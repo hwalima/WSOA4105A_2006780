@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding:0;
+   
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Lexend+Mega&family=Quicksand:wght@300&display=swap');
+  
+ 
+  .nav {
+    display:flex;
+    background: linear-gradient(45deg, #011625 0%, #2d3636 100%);
+    justify-content:center;
+    color:#fff;
+  
+   
+      position:relative;
+      top:250px;
+  }
+  .nav .nav-icon {
+   
+    height:70px;
+    position:relative;
+   
+     
+    padding:5px;
+    border-radius:5px;
+  
+  }
+  .nav .nav-icon a {
+   
+    padding:10px;
+    
+    margin:10px;
+    font-size:60px;
+    text-shadow: 0 2px 2px #212121;
+    
+  }
+  
+  .nav .nav-icon a:nth-child(1):hover {
+     transition:ease 0.25s ;
+     color:#fa5c5c;
+  }
+  .nav .nav-icon a:nth-child(2):hover {
+    transition:ease 0.25s ;
+    color:#0ebaff;
+  }
+  .nav .nav-icon a:nth-child(3):hover {
+    transition:ease 0.25s ;
+    color:#cd486b;
+  }
+  .nav .nav-icon a:nth-child(4):hover {
+   transition:ease 0.25s ;
+    color:#0ebaff;
+  }
+  .nav .nav-icon a i:hover {
+   transition:ease-in 0.25s ;
+   transform: translateY(-20px)scale(1.25);
+    
+    
+  }
+  .nav .nav-icon a .slider{
+    margin:10px;
+    box-shadow: 0 1px 2px #000;
+   
+    
+  }
+  
+  
+  
+  .nav .nav-icon:hover {
+   transition:ease-out 0.5s ;
+   transform: translateX(5px)scale(1.25);
+    
+  }
+  

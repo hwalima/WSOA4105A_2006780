@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <link rel="stylesheet" href="./css/about.css">
+    <script src="./js/about.js"></script>
+</head>
+
+<body>
+    <!--Navigation bar-->
+    <div id="nav-placeholder">
+
+    </div>
+
+    <script>
+        $(function () {
+            $("#nav-placeholder").load("menu.html");
+        });
+    </script>
+    <!--end of Navigation bar-->
+
+    <div class="clouds"></div>
+    <div class="sky">
+        <div class="instructions">Go ahead... click on the rocket...</div>
+        <div class="rocket-container">
+            <div class="rocket">
+                <div class="rocket-top">
+                </div>
+                <div class="rocket-body">
+                    <div class="window">
+                        <!-- <img class="profile-picture" src="" /> -->
+                    </div>
+                </div>
+                <div class="rocket-bottom">
+                    <div class="rocket-thruster">
+                        <div class="rocket-burner">
+                            <div class="flame red"></div>
+                            <div class="flame orange"></div>
+                            <div class="flame white"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="details">
+                <span class="close">x</span>
+                <div class="title">About the Project</div>
+                <div class="about-me">
+                    <p>
+                        Ethereal, evocative, the art of Light and Space pushes the viewer beyond the everyday limits of
+                        perception. <br><br>
+                        Honestly, no one warned me about the maths involved behind WebGL and three.js. I felt like I was
+                        going back to physics lessons, especially when creating an illusion of the3D space. <br><br>
+                        "Space art” (also "astronomical art") is the term for a genre of modern artistic expression that
+                        strives to show the wonders of the universe. Like other genres, Space Art has many facets and
+                        encompasses realism, impressionism.
+                    </p>
+                </div>
+                <div class="social-container">
+                    <a class="fa fa-facebook" href="#"></a>
+                    <a class="fa fa-twitter" href="#"></a>
+                    <a class="fa fa-instagram" href="#"></a>
+                    <a class="fa fa-github" href="#"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,7 +1,4 @@
-// Oil Painting
-// Ported from flash project - http://wonderfl.net/c/92Ul
-//
-//
+
 function OilPainting(){
   
     var canvas;

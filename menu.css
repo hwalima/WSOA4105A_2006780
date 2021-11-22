@@ -1,3 +1,4 @@
+@import url(//fonts.googleapis.com/css?family=Berkshire+Swash);
 html {
   width: 100%;
   height: 100%;
@@ -300,7 +301,7 @@ SETTINGS
 :root{
   --colorWhite: #fff;
   --colorMain: #46454b;
-  background-image: url(./images/space.jpg);
+  
   --menuCircleBackgroundColor: var(--colorMain);
   --menuHamburgerBackgroundColor: var(--colorWhite);
   --menuHaburgerOutlineColor: var(--colorMain);

@@ -12,7 +12,7 @@ var config = {
     skipPreloaderAnimation: false,
 
     comeToJoburg: function() {
-        goTo(26.2041,28.0473);
+        goTo(28.0473,26.2041);
     }
 };
 

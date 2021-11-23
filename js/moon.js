@@ -159,14 +159,6 @@ function randomMoon() {
   TweenMax.to(options.chroma, 1, {RGBn: Math.random() * 2});
   TweenMax.to(options.chroma, 1, {RGBm: Math.random() * 5});
   
-  /*options.perlin.time = 1;
-  options.perlin.dnoise = 0;
-  options.perlin.morph = 0;
-  options.chroma.RGBr = Math.random() * 10;
-  options.chroma.RGBg = Math.random() * 10;
-  options.chroma.RGBb = Math.random() * 10;
-  options.chroma.RGBn = Math.random() * 2;
-  options.chroma.RGBm = Math.random() * 5;*/
   
 }
 

@@ -1,9 +1,9 @@
 @import "compass/css3";
- @import url(https://fonts.googleapis.com/css?family=Give+You+Glory);
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
  body {
 	 margin: 0px;
 	 overflow: hidden;
-	 font-family: 'Give You Glory', cursive;
+	 font-family: 'Arvo', cursive;
 	 font-size: 40px;
      background-color: #000;
 }

@@ -1,7 +1,8 @@
-@import url(//fonts.googleapis.com/css?family=Berkshire+Swash);
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
 html {
   width: 100%;
   height: 100%;
+  font-family: 'Arvo';
 }
 
 @keyframes background {
@@ -164,6 +165,7 @@ MENU STYLES
   bottom: 0;
   left: 0;
   z-index: var(--menuZindex, 9998);
+  
 }
 
 .menu__nav{
@@ -174,19 +176,20 @@ MENU STYLES
   background-size: 200% 200%;
   height: 100%;
   width: 100%;
-  animation: background 6s ease infinite;
+  animation: background 20s ease infinite;
   transition: opacity .2s ease-out;
   opacity: 0;
   display: flex;
   align-items: flex-end;
   z-index: 2;
+  background-image: url("./images/me.png");
 }
 
 .menu__list{
   width: 100%;
   max-height: 100%;
-
-  overflow-y: auto;
+  vertical-align: baseline;
+ 
   -webkit-overflow-scrolling: touch;
 }
 
@@ -291,6 +294,28 @@ MENU STATES
   transform: rotate(-45deg) translate3d(-.285em,-.3em, 0);
   opacity: 0;
 }
+.pulse:hover, .pulse:focus {
+  animation: pulse 1s;
+  box-shadow: 0 0 0 2em rgba(255, 255, 255, 0);
+}
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--hover);
+ }
+}
+.pulse {
+  --color: #05205a;
+  --hover: #030844;
+}
+
+button {
+  color: var(--color);
+  transition: 0.25s;
+}
+button:hover, button:focus {
+  border-color: var(--hover);
+  color: #fff;
+}
 
 /*
 =====
@@ -299,8 +324,8 @@ SETTINGS
 */
 
 :root{
-  --colorWhite: #fff;
-  --colorMain: #46454b;
+  color: rgb(7, 20, 95);
+  --colorMain: #000000;
   
   --menuCircleBackgroundColor: var(--colorMain);
   --menuHamburgerBackgroundColor: var(--colorWhite);
@@ -310,21 +335,19 @@ SETTINGS
 
 .menu_activated{
   --menuHaburgerOutlineColor: var(--colorWhite);
+  
 }
 
-/*
-=====
-DEMO
-=====
-*/
+
 
 body{
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   margin: 0;  
-  font-family: 'Berkshire Swash', cursive;
+  font-family: 'Arvo';
   font-size: 1rem;
+  color: rgb(7, 20, 95);
   
 }
 
@@ -359,7 +382,8 @@ body{
 
 .substack{
   border:1px solid #EEE; 
-  background-color: #fff;
+  color: aqua;
+
   order: -1;
   height: 280px;
 }
